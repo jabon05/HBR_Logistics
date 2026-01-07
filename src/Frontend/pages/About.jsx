@@ -12,9 +12,16 @@ export const About = () => {
           <h1 className="display-4 fw-bold">
             Nuestra <span style={{ color: "var(--hbr-red)" }}>Historia</span>
           </h1>
-          <p className="lead mx-auto" style={{ maxWidth: "700px" }}>
-            En HBR Logística, transformamos la complejidad de la cadena de
-            suministro en soluciones simples y eficientes.
+          <p className="lead mx-auto" style={{ maxWidth: "1200px" }}>
+            HBR Logística es una empresa costarricense fundada en 2023, dedicada
+            al transporte y la transformación de productos con altos estándares
+            de calidad. Desde nuestros inicios, hemos trabajado para
+            convertirnos en un aliado estratégico para nuestros clientes,
+            ofreciendo soluciones logísticas confiables, puntuales y diseñadas a
+            la medida de cada necesidad. Nuestro equipo está conformado por
+            profesionales comprometidos con la excelencia, la eficiencia y una
+            atención personalizada que garantiza una experiencia de servicio
+            superior.
           </p>
         </div>
       </section>
@@ -92,9 +99,13 @@ export const About = () => {
                   Nuestra Misión
                 </h3>
                 <p className="text-secondary">
-                  Impulsar el crecimiento de nuestros clientes a través de
-                  servicios logísticos integrales, utilizando tecnología de
-                  vanguardia y un equipo humano altamente capacitado.
+                  Brindar servicios logísticos de alta calidad en control,
+                  distribución, almacenaje, etiquetado y transporte de
+                  mercaderías e inventarios, trabajando de manera cercana con
+                  nuestros clientes como socios estratégicos. Nos comprometemos
+                  a ofrecer eficacia, confianza y soluciones personalizadas que
+                  optimicen sus procesos y fortalezcan su competitividad en el
+                  mercado.
                 </p>
               </div>
             </div>
@@ -110,9 +121,13 @@ export const About = () => {
                   Nuestra Visión
                 </h3>
                 <p className="text-secondary">
-                  Ser el referente número uno en logística y tecnología en la
-                  región, siendo reconocidos por nuestra integridad, innovación
-                  y calidad superior.
+                  Convertirnos en la empresa referente en soluciones logísticas
+                  integrales del país, reconocida por nuestra innovación
+                  constante, excelencia en el servicio y flexibilidad para
+                  anticipar y responder a las necesidades cambiantes de nuestros
+                  clientes. Aspiramos a impulsar el crecimiento sostenible de
+                  sus negocios, generando valor y confianza en cada etapa de la
+                  cadena logística.
                 </p>
               </div>
             </div>

@@ -282,3 +282,19 @@ body {
   color: #adb5bd;
   opacity: 0.5;
 }
+
+
+/*Estilos de mantenimiento*/
+.maintenance-heading {
+  font-size: clamp(40px, 8vw, 70px); /* Responsive font size */
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  color: var(--hbr-blue);
+}
+
+.maintenance-text {
+  max-width: 700px;
+  font-size: clamp(18px, 4vw, 25px);
+  margin-bottom: 3rem;
+  color: #555;
+}
