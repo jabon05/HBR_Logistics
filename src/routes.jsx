@@ -4,12 +4,13 @@ import {
   Route,
 } from "react-router-dom";
 import { Layout } from "./Frontend/pages/Layout";
-import { Home } from "./Frontend/pages/Home";
-import { About } from "./Frontend/pages/About";
-import { Services } from "./Frontend/pages/Services";
-import { Contact } from "./Frontend/pages/Contact";
+import { Home } from "./Frontend/pages/Inicio";
+import { About } from "./Frontend/pages/Acerca";
+import { Services } from "./Frontend/pages/Servicios";
+import { Contact } from "./Frontend/pages/Contacto";
 import { NotFound } from "./Frontend/Components/NotFound";
 import { Mantenimiento } from "./Frontend/Components/Maintenance";
+import { RegisterModal } from "./Frontend/Components/registerModal";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,11 +20,13 @@ export const router = createBrowserRouter(
 
       {/* Other Routes */}
       <Route path="home" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="services" element={<Services />} />
-      <Route path="contact" element={<Contact />} />
+      <Route path="acerca" element={<About />} />
+      <Route path="servicios" element={<Services />} />
+      <Route path="contacto" element={<Contact />} />
       <Route path="mantenimiento" element={<Mantenimiento />} />
-      <Route path="platform" element={<Mantenimiento />} />
+      <Route path="plataforma" element={<Mantenimiento />} />
+      <Route path="cotizar" element={<Mantenimiento />} />
+      <Route path="registerModal" element={<RegisterModal />} />
       <Route path="*" element={<NotFound />} />
     </Route>
   )

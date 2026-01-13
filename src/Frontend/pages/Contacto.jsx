@@ -41,7 +41,7 @@ export const Contact = () => {
           style={{ backgroundColor: "#435d66", color: "white", border: "none" }}
         >
           <i className="bi bi-whatsapp me-2" style={{ fontSize: "1.5rem" }}></i>
-          Cotizaciones
+          Dudas?
         </a>
       </div>
 
@@ -103,7 +103,7 @@ export const Contact = () => {
           }}
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15719.93550146018!2d-84.12097679854044!3d9.935299278007239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fca8bfb73e37%3A0x81473ea6db7a7c40!2sMata%20Redonda%20District%2C%20San%20Jos%C3%A9%20Province%2C%20San%20Jos%C3%A9!5e0!3m2!1sen!2scr!4v1766779076016!5m2!1sen!2scr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15720.5732168923!2d-84.116548!3d9.922883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e34fe2077f97%3A0x6b3064609205566!2sMata%20Redonda%2C%20San%20Jos%C3%A9!5e0!3m2!1sen!2scr!4v1700000000000!5m2!1sen!2scr"
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"

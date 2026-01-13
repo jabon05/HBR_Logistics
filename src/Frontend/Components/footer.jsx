@@ -30,6 +30,16 @@ const Footer = () => {
             <p className="mb-0 fw-bold" style={{ fontSize: "1.2rem" }}>
               © 2025 <span style={{ color: "var(--hbr-red)" }}>HBR Logística</span>
             </p>
+            <small 
+              className="text-white-50" 
+              style={{ 
+                fontSize: "0.75em", 
+                letterSpacing: "3.5px", 
+                fontWeight: "normal",
+              }}
+            >
+              COSTA RICA
+            </small>
           </div>
 
           {/* Lado Derecho: Iconos Sociales */}
